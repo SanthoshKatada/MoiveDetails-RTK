@@ -1,0 +1,9 @@
+@import "./Colors.scss";
+
+.footer {
+  background-color: $secondary-color;
+  color: $font-primary;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0.5%;
+}

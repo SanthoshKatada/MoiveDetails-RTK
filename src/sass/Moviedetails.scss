@@ -1,0 +1,67 @@
+@import "./Colors.scss";
+
+.movie-section {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+
+  .loading {
+    color: white;
+    text-align: center;
+  }
+
+  .image {
+    color: $font-primary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 15%;
+    }
+
+    .movie-title {
+      font-size: 20px;
+      font-weight: 700;
+      padding: 2%;
+    }
+  }
+
+  .movie-rating {
+    display: flex;
+    justify-content: space-evenly;
+    color: $font-secondary;
+    padding-left: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      i {
+        padding-left: 3px;
+        padding-right: 3px;
+      }
+    }
+  }
+  .movie-plot {
+    color: $font-primary;
+    line-height: 25px;
+    font-weight: 100;
+  }
+}
+
+.movie-info > div span:first-child {
+  padding: 10px 0px;
+  color: $font-primary;
+  font-weight: 600;
+  width: 100px;
+  display: inline-block;
+}
+
+.movie-info > div span {
+  color: $font-secondary;
+}
